@@ -1,0 +1,348 @@
+/* General Styling*/
+/* *{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+} */
+body {
+  font-family: "Montserrat", sans-serif;
+   overflow-x: hidden;
+}
+a {
+  color: #06c;
+}
+img {
+  max-width: 100%;
+}
+.white {
+  color: #fff;
+}
+.black {
+  color: #1d1d1f;
+}
+.grey {
+  color: #86868b;
+}
+.top-50 {
+  margin-top: 50px;
+}
+.top-100 {
+  margin-top: 100px;
+}
+ 
+/* Header Style */
+.nav-wrapper {
+  background: rgba(0, 0, 0, 0.8);
+  font-size: 0.85em;
+  font-weight: 200;
+}
+.nav-wrapper ul li a {
+  color: #fff;
+}
+.navbar-toggler {
+  color: #fff;
+}
+.nav-item {
+  text-align: left !important;
+  padding: 4px 0;
+  border-bottom: 1px solid #4b4b4b;
+}
+
+/* Footer Styling */
+.footer-wrapper {
+  background-color: #f5f5f7;
+  color: #86868b;
+  font-size: 0.7em;
+}
+.footer-wrapper ul {
+  list-style: none;
+  padding-bottom: 10px;
+  padding-inline-start: 0px;
+}
+.footer-wrapper ul a {
+  color: #515154;
+}
+.my-apple-wrapper {
+  padding-bottom: 15px;
+  margin-top: 10px;
+}
+.copyright {
+  margin-top: 15px;
+}
+.footer-country {
+  margin-top: 8px;
+}
+.flag-wrapper {
+  display: inline-block;
+  vertical-align: middle;
+  padding-right: 5px;
+}
+.footer-country-name {
+  display: inline-block;
+  vertical-align: middle;
+}
+.footer-links-terms ul {
+  display: flex;
+}
+.footer-links-terms ul li {
+  padding: 0 10px;
+  border-right: 1px solid #d2d2d7;
+}
+.footer-links-terms ul li:first-child {
+  padding-left: 0;
+}
+.footer-links-terms ul li:last-child {
+  border-right: 0;
+}
+
+.footer-links-wrapper h3 {
+  font-size: 12px;
+  font-weight: 600;
+  color: #1d1d1f;
+}
+.footer-wrapper ul li {
+  padding: 4px 0;
+}
+.upper-text-container {
+  border-bottom: 1px solid #d2d2d7;
+  padding: 17px 0 10px;
+  margin-bottom: 20px;
+}
+.upper-text-container a {
+  color: #515154;
+}
+
+/*Media Query*/
+/* Footer */
+@media (max-width: 768px) {
+  .footer-links-wrapper ul {
+    display: none;
+  }
+  .footer-links-wrapper h3 {
+    padding: 10px 0;
+    border-bottom: 1px solid #ccc;
+  }
+  .footer-links-wrapper h3:after {
+    font-family: "FontAwesome";
+    content: "\f067";
+    padding-left: 10px;
+    position: absolute;
+    right: 25px;
+  }
+}
+@media (min-width: 768px) {
+  /*Nav bar*/
+  .nav-item {
+    text-align: center !important;
+    padding: 0;
+    border-bottom: 0px;
+  }
+  /*Footer styling*/
+  .my-apple-wrapper {
+    border-bottom: 1px solid #d2d2d7;
+  }
+}
+@media (min-width: 992px) {
+  /*Footer styling*/
+  .copyright {
+    margin-top: 10px;
+  }
+  .footer-country {
+    margin-top: 10px;
+  }
+  .footer-links-terms {
+    margin-top: 10px;
+  }
+}
+
+/* title-heading--------------- */
+
+.title-heading{
+font-size: 4.5rem;
+font-weight: 700;
+}
+.title-sub-heading{
+  font-size: 2.65rem;
+font-weight:600;
+}
+
+/*second-section-wrapper styling----------------------------------------------------------*/
+
+.iphone-14-pro {
+  background-image: url("../images/New-Imges/iphone-14-pro/hero_iphone14pro_spring__9xo85pm6sbmm_small_2x.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+   background-size: cover;
+  height: 50vh;
+}
+@media(min-width:768px){
+  .iphone-14-pro {
+    background-image: url("../images/New-Imges/iphone-14-pro/hero_iphone14pro_spring__9xo85pm6sbmm_medium_2x.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+     background-size: cover;
+    height: 50vh;
+  }}
+
+  @media(min-width:992px){
+    .iphone-14-pro {
+      background-image: url("../images/New-Imges/iphone-14-pro/hero_iphone14pro_spring__9xo85pm6sbmm_mediumtall_2x.jpg");
+      background-position: center;
+      background-repeat: no-repeat;
+       background-size: cover;
+      height: 50vh;
+    }}
+
+    @media(min-width:1200px){
+      .iphone-14-pro {
+        background-image: url("../images/New-Imges/iphone-14-pro/hero_iphone14pro_spring__9xo85pm6sbmm_large_2x.jpg");
+        background-position: center;
+        background-repeat: no-repeat;
+         background-size: cover;
+        height: 50vh;
+      }}
+      
+      @media(min-width:1400px){
+        .iphone-14-pro {
+          background-image: url("../images/New-Imges/iphone-14-pro/hero_iphone14pro_spring__9xo85pm6sbmm_largetall_2x.jpg");
+          background-position: center;
+          background-repeat: no-repeat;
+           background-size: cover;
+          height: 70vh;
+        }
+}
+
+/*third-section-wrapper styling------------------------------------------*/
+
+.iphone-14 {
+  background-image: url("../images/New-Imges/iphone-14/hero_iphone14_yellow__eun20sn4imi6_small_2x.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 50vh;
+}
+
+@media(min-width:768px){
+  .iphone-14{
+    background-image: url("../images/New-Imges/iphone-14/hero_iphone14_yellow__eun20sn4imi6_medium_2x.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+     background-size: cover;
+    height: 50vh;
+  }}
+
+  @media(min-width:992px){
+    .iphone-14 {
+      background-image: url("../images/New-Imges/iphone-14/hero_iphone14_yellow__eun20sn4imi6_mediumtall_2x.jpg");
+      background-position: center;
+      background-repeat: no-repeat;
+       background-size: cover;
+      height: 50vh;
+    }}
+
+    @media(min-width:1200px){
+      .iphone-14 {
+        background-image: url("../images/New-Imges/iphone-14/hero_iphone14_yellow__eun20sn4imi6_largetall_2x.jpg");
+        background-position: center;
+        background-repeat: no-repeat;
+         background-size: cover;
+        height: 50vh;
+      }}
+      
+      @media(min-width:1400px){
+        .iphone-14 {
+          background-image: url("../images/New-Imges/iphone-14/hero_iphone14_yellow__eun20sn4imi6_largetall_2x.jpg");
+          background-position: center;
+          background-repeat: no-repeat;
+           background-size: cover;
+          height: 80vh;
+        }
+}
+
+/*fourth-section-wrapper styling---------------------------------------------------*/
+.Trade‑in{
+  background-image: url("../images/promos/iphone-tradein/iphone_tradein_promo__d5au3rkw5kuq_small_2x\ \(1\).jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 50vh;
+ 
+}
+.wwdc23{
+  background-image: url("../images/promos/wwwdc23-announce/promo_wwdc23_swift__b3fev54l3bci_small_2x.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 50vh;
+ 
+}
+
+.p-top{
+  padding-top: 500px;
+}
+@media(min-width:1400px){
+  
+  .p-top{
+    padding-top: 300px;
+}}
+
+
+/*fifth-section-wrapper styling*/
+.watch{
+  background-image: url("../images/promos/apple-watch-pride/promo_pride23__cnpic94fthle_small_2x.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 50vh;
+}
+.ipad-pro{
+  background-image: url("../images/New-Imges/ipad-pro/hero_ipadpro__bpt7a9d8sh42_small_2x.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 50vh;
+}
+
+/*six-section-wrapper styling----------------------------------------------------------------*/
+.privecy{
+  background-image: url("../images/promos/privacy/privacy__fzwalkil8paq_small_2x.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 50vh;
+}
+.apple-card{
+  background-image: url("../images/promos/apple-card/tile__cauwwcyyn9hy_small_2x.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 50vh;
+}
+
+/* links-wrapper------------------------------------------------- */
+
+.links-wrapper {
+  padding: 15px 0;
+}
+.links-wrapper ul li {
+  display: inline-block;
+  padding-right: 20px;
+}
+.links-wrapper ul li a {
+  color: #2997ff;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: 600;
+}
+.links-wrapper ul li a:hover {
+  color: #2997ff;
+  text-decoration: underline;
+}
+.links-wrapper ul li a:after {
+  font-family: "FontAwesome";
+  font-weight: 900;
+  content: "\f105";
+  padding-left: 10px;
+  display: inline-block;
+}
+ 
